@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark Details"
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editSSLC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="S.S.L.C. Mark" />
+
+    <EditText
+        android:id="@+id/editHSC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="H.Sc. Mark" />
+
+    <EditText
+        android:id="@+id/editUG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="U.G. C.G.P.A." />
+
+</LinearLayout>
