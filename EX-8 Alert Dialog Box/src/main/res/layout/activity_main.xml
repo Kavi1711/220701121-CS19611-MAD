@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Alert Dialog Box"
+        android:textColor="@android:color/white"
+        android:textColorLink="#1F65E6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the text...!"
+        android:padding="8dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/showAlertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:background="@color/purple_700"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

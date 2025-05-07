@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Digital Clock Display -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="00:00 AM" />
+
+    <!-- Round Clock UI (TimePicker) -->
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:is24HourView="false" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnSetAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnStopAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Alarm"
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp" />
+
+    <!-- List of Alarms -->
+    <ListView
+        android:id="@+id/alarmListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
