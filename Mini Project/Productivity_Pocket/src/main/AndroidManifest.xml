@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.productivity_pocket">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- If needed for internet access -->
+    <!-- Add more permissions as required by your app -->
+
+    <application
+        android:allowBackup="true"
+        android:label="Productivity Pocket"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Productivity_Pocket">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Main Activity"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Task Manager Activity -->
+        <activity
+            android:name=".TaskManagerActivity"
+            android:exported="true"
+            android:label="Task Manager" />
+
+        <!-- Daily Journal Activity -->
+        <activity
+            android:name=".DailyJournalActivity"
+            android:exported="true"
+            android:label="Daily Journal" />
+
+        <!-- Focus Timer Activity -->
+        <activity
+            android:name=".FocusTimerActivity"
+            android:exported="true"
+            android:label="Focus Timer" />
+
+        <!-- Sticky Notes Activity -->
+        <activity
+            android:name=".StickyNotesActivity"
+            android:exported="true"
+            android:label="Sticky Notes" />
+
+        <!-- Add other activities here as needed -->
+        <activity
+            android:name=".VoiceNoteActivity"
+            android:exported="true"
+            android:label="Voice Notes" />
+
+        <!-- Example: Alarm Scheduler Activity -->
+        <activity
+            android:name=".AlarmSchedulerActivity"
+            android:exported="true"
+            android:label="Alarm Scheduler" />
+
+        <!-- Broadcast Receivers (if any) -->
+        <!-- Example: -->
+        <!-- <receiver android:name=".MyReceiver" android:exported="true" /> -->
+
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- App Name TextView -->
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Productivity Pocket"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+
+    <!-- Task Manager Button -->
+    <Button
+        android:id="@+id/btnTaskManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📝 Task Manager"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Voice to Text Notes Button -->
+    <Button
+        android:id="@+id/btnVoiceNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎤 Voice to Text Notes"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Alarm Scheduler Button -->
+    <Button
+        android:id="@+id/btnAlarmScheduler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⏰ Alarm Scheduler"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Daily Journal Button -->
+    <Button
+        android:id="@+id/btnDailyJournal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📓 Daily Journal"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Text-to-Speech Reader Button -->
+    <Button
+        android:id="@+id/btnTextToSpeech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📣 Text-to-Speech Reader"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Focus Timer Button -->
+    <Button
+        android:id="@+id/btnFocusTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⏱️ Focus Timer"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Sticky Notes Button -->
+    <Button
+        android:id="@+id/btnStickyNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📌 Quick Notes (Sticky Pad)"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
