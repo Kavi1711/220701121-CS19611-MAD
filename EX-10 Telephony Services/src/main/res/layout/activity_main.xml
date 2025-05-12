@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telephony Services"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="#800080"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/operatorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Network Operator Name"
+            android:enabled="false"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/phoneType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Type"
+            android:enabled="false"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/networkCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Network Country ISO"
+            android:enabled="false"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/simCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SIM Country ISO"
+            android:enabled="false"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/deviceSoftware"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Device Software Version"
+            android:enabled="false"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/getInfoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Telephony Services"
+            android:background="#800080"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
